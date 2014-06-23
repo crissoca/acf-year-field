@@ -19,7 +19,7 @@
 			// set name / title
 			$this->name = 'year'; // variable name (no spaces / special characters / etc)
 			$this->label = __("Year"); // field label (Displayed in edit screens)
-			$this->category = __("Basic",'acf');
+			$this->category = __("Choice",'acf');
 			$this->defaults = array(
 				// add default here to merge into your field. 
 				// This makes life easy when creating the field options as you don't need to use any if( isset('') ) logic. eg:
@@ -146,14 +146,7 @@
 
 		function input_admin_head()
 		{
-		?>
-	        <style type="text/css">
-	            .acf_postbox .field select.year {
-	                width: 20%;
-	                margin-left: 5px;
-	            }
-	        </style>
-		<?php
+
 		}
 
 
